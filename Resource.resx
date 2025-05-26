@@ -1,0 +1,591 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ACCESS_DENIED" xml:space="preserve">
+    <value>Access denied</value>
+  </data>
+  <data name="ACCESS_TOKEN" xml:space="preserve">
+    <value>Access token</value>
+  </data>
+  <data name="ACTIVE" xml:space="preserve">
+    <value>Active</value>
+  </data>
+  <data name="APPROVEMENT_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Approvement data was not found</value>
+  </data>
+  <data name="AZERCELL_SERVICES_IS_NOT_RESPONDING" xml:space="preserve">
+    <value>Azerecell's services is not responding</value>
+  </data>
+  <data name="AZERCELL_UNHANDLED_EXCEPTION" xml:space="preserve">
+    <value>Azercell's unhandled exception </value>
+  </data>
+  <data name="BILLING_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Billing data was not found</value>
+  </data>
+  <data name="BILLING_PROCCESS_WAS_OCCURED_MORE_THAN_5_MINUTES_AGO" xml:space="preserve">
+    <value>Billing process was occured more than 5 minutes ago</value>
+  </data>
+  <data name="BIOMETRIC_AUTHENTICATION_IS_FAILED" xml:space="preserve">
+    <value>Biometric authentication is failed</value>
+  </data>
+  <data name="BIOMETRIC_DATA_NOT_FOUND" xml:space="preserve">
+    <value>Biometric data was not found</value>
+  </data>
+  <data name="BIOMETRIC_IDENTITY_CODE_DOESNT_MATCH_WITH_DOCUMENT_NUMBER" xml:space="preserve">
+    <value>Biometric identity code does not match with document number of person</value>
+  </data>
+  <data name="BIOMETRIC_SERVICE_IS_NOT_RESPONDING" xml:space="preserve">
+    <value>Biometric service is not responding</value>
+  </data>
+  <data name="BIOMETRIC_SERVICE_RETURNS_NULL" xml:space="preserve">
+    <value>Biometric service returns null value</value>
+  </data>
+  <data name="BIO_OPERATION_SERVICE_IS_NOT_RESPONDING" xml:space="preserve">
+    <value>Bio operation service is not responding</value>
+  </data>
+  <data name="BIRTH_ADDRESS" xml:space="preserve">
+    <value>Birth address</value>
+  </data>
+  <data name="BIRTH_DATE" xml:space="preserve">
+    <value>Birth date</value>
+  </data>
+  <data name="BLOCKED" xml:space="preserve">
+    <value>Blocked</value>
+  </data>
+  <data name="BRANCH_CODE" xml:space="preserve">
+    <value>Branch code</value>
+  </data>
+  <data name="BRANCH_CODE_İS_EXİST" xml:space="preserve">
+    <value>Branch code is exist</value>
+  </data>
+  <data name="BRANCH_IS_NOT_CORRESPOND_WITH_ORGANIZATION" xml:space="preserve">
+    <value>Branch is not correspond with organization</value>
+  </data>
+  <data name="BRANCH_IS_NOT_EXIST" xml:space="preserve">
+    <value>Branch is not exist</value>
+  </data>
+  <data name="CANNOT_GENERATE_MASTER_KEY" xml:space="preserve">
+    <value>Cannot generate master key</value>
+  </data>
+  <data name="CANNOT_SIGNED" xml:space="preserve">
+    <value>Cannot signed</value>
+  </data>
+  <data name="CERTIFICATES_ARE_NOT_CREATE" xml:space="preserve">
+    <value>Certificates are not create</value>
+  </data>
+  <data name="CERTIFICATE_DATA_NOT_AVAILABLE" xml:space="preserve">
+    <value>Cerificate data not available</value>
+  </data>
+  <data name="CERTIFICATE_SERVICES_IS_NOT_RESPONDING" xml:space="preserve">
+    <value>Certificate services is not responding</value>
+  </data>
+  <data name="CITIZENSHIP_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Citizenship does not exist</value>
+  </data>
+  <data name="CLAIM_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Claim does not exist</value>
+  </data>
+  <data name="COMPARE" xml:space="preserve">
+    <value>The {0} and {1} do not match</value>
+  </data>
+  <data name="CONCRETE_LENGTH" xml:space="preserve">
+    <value>{0} length can be {1}</value>
+  </data>
+  <data name="CONTACT_NUMBER" xml:space="preserve">
+    <value>Contact number</value>
+  </data>
+  <data name="CONTRACT_FILE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Contract file does not exist</value>
+  </data>
+  <data name="CONTRACT_FILE_IS_EXIST" xml:space="preserve">
+    <value>Contract file is exist</value>
+  </data>
+  <data name="CONTRACT_FILE_TYPE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Contract file type does not exist</value>
+  </data>
+  <data name="CONTRACT_IS_NOT_EXIST" xml:space="preserve">
+    <value>Contract is not exist</value>
+  </data>
+  <data name="CONTRACT_STATUS_DOES_NOT_EXİST" xml:space="preserve">
+    <value>Contract status does not exist</value>
+  </data>
+  <data name="CSRs" xml:space="preserve">
+    <value>CSRs</value>
+  </data>
+  <data name="DELIVERY_ADDRESS" xml:space="preserve">
+    <value>Delivery Address</value>
+  </data>
+  <data name="DESCRIPTION" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="DOCUMENT_NUMBER" xml:space="preserve">
+    <value>Document number</value>
+  </data>
+  <data name="DOCUMENT_PIN_IS_EXIST" xml:space="preserve">
+    <value>Document pin is exist</value>
+  </data>
+  <data name="DOCUMENT_PİN" xml:space="preserve">
+    <value>Document pin</value>
+  </data>
+  <data name="DOCUMENT_TYPE" xml:space="preserve">
+    <value>Document type</value>
+  </data>
+  <data name="DOCUMENT_TYPE_IS_NOT_EXIST" xml:space="preserve">
+    <value>Document type is not exist</value>
+  </data>
+  <data name="EMAIL_IS_EXIST" xml:space="preserve">
+    <value>Email is exist</value>
+  </data>
+  <data name="EMAIL_IS_NOT_VALID" xml:space="preserve">
+    <value>Email format is not valid</value>
+  </data>
+  <data name="EMAİL" xml:space="preserve">
+    <value>Email</value>
+  </data>
+  <data name="EXPIRY_DATE" xml:space="preserve">
+    <value>Expire date</value>
+  </data>
+  <data name="FACES_DO_NOT_MATCH" xml:space="preserve">
+    <value>Faces do not match</value>
+  </data>
+  <data name="FAILED_LOGOUT" xml:space="preserve">
+    <value>Logout operations fails</value>
+  </data>
+  <data name="FAILED_REFRESH_OPERATION" xml:space="preserve">
+    <value>Failed refresh operation</value>
+  </data>
+  <data name="FEMALE" xml:space="preserve">
+    <value>Female</value>
+  </data>
+  <data name="FILENAME" xml:space="preserve">
+    <value>File name</value>
+  </data>
+  <data name="FILE_CANNOT_SAVED" xml:space="preserve">
+    <value>Photo or fingerprint can not saved</value>
+  </data>
+  <data name="FINGERPRINT_PHOTO_WAS_NOT_FOUND" xml:space="preserve">
+    <value>Fingerprint photo was not found</value>
+  </data>
+  <data name="FIRSTNAME" xml:space="preserve">
+    <value>Firstname</value>
+  </data>
+  <data name="GENDER" xml:space="preserve">
+    <value>Gender</value>
+  </data>
+  <data name="GENDER_TYPE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Gender type does not exist</value>
+  </data>
+  <data name="GREATERTHANOREQUALTO" xml:space="preserve">
+    <value>{0} greater {1} than or equal to {1}</value>
+  </data>
+  <data name="GREATER_THAN" xml:space="preserve">
+    <value>{0} must be greater than {1}</value>
+  </data>
+  <data name="HANDLER_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Handler does not exist</value>
+  </data>
+  <data name="HANDLER_NAME_IS_EXIST" xml:space="preserve">
+    <value>Handler name is exidt</value>
+  </data>
+  <data name="IAMAS_DATA_IS_NOT_AVAILABLE" xml:space="preserve">
+    <value>Iamas data is not available</value>
+  </data>
+  <data name="IAMAS_IMAGE_DETECTION_IS_FAILED" xml:space="preserve">
+    <value>Iamas image detection is failed</value>
+  </data>
+  <data name="IAMAS_SERVICES_IS_NOT_RESPONDING" xml:space="preserve">
+    <value>Iamas services is not responding</value>
+  </data>
+  <data name="IMAGE_NOT_FOUND" xml:space="preserve">
+    <value>Image not found</value>
+  </data>
+  <data name="INCORRECT_DATE_FORMAT" xml:space="preserve">
+    <value>Incorrect date format</value>
+  </data>
+  <data name="INCORRECT_PASSWORD" xml:space="preserve">
+    <value>Password is incorrect</value>
+  </data>
+  <data name="INPUT" xml:space="preserve">
+    <value>Input</value>
+  </data>
+  <data name="INPUT_LIST" xml:space="preserve">
+    <value>Input list</value>
+  </data>
+  <data name="INTERNAL_ERROR" xml:space="preserve">
+    <value>Internal error</value>
+  </data>
+  <data name="INVALID" xml:space="preserve">
+    <value>{0} is invalid</value>
+  </data>
+  <data name="INVALID_APPROVEMENT_DATA_VALIDATION" xml:space="preserve">
+    <value>Invalid approvement data validation</value>
+  </data>
+  <data name="INVALID_BILLING_DATA_VALIDATION" xml:space="preserve">
+    <value>Invalid billing data validation</value>
+  </data>
+  <data name="INVALID_FILETYPE" xml:space="preserve">
+    <value>The selected document cannot be an edoc file.</value>
+  </data>
+  <data name="INVALID_FILE_COUNT" xml:space="preserve">
+    <value>File count should be maximum {0}.</value>
+  </data>
+  <data name="INVALID_IDENTITY_DATA_VALIDATION" xml:space="preserve">
+    <value>Invalid identity data validation</value>
+  </data>
+  <data name="INVALID_INPUT" xml:space="preserve">
+    <value>Input is invalid</value>
+  </data>
+  <data name="INVALID_NUMBER_FORMAT" xml:space="preserve">
+    <value>Number format is not valid</value>
+  </data>
+  <data name="INVALID_PIN" xml:space="preserve">
+    <value>{0} is invalid</value>
+  </data>
+  <data name="INVALID_PINCODE" xml:space="preserve">
+    <value>{0} is invalid</value>
+  </data>
+  <data name="INVALID_TIN_IDENTITY_DATA_VALIDATION" xml:space="preserve">
+    <value>Invalid TIN identity data validation</value>
+  </data>
+  <data name="ISDIGIT" xml:space="preserve">
+    <value>At least one character must be digit</value>
+  </data>
+  <data name="ISSUED_DATE" xml:space="preserve">
+    <value>Issued date</value>
+  </data>
+  <data name="IS_EMPTY" xml:space="preserve">
+    <value>{0} is empty</value>
+  </data>
+  <data name="IS_EMPTY_OR_UNCORRECT_LENGTH" xml:space="preserve">
+    <value>{0} cannot be empty and must be {1}-{2} range</value>
+  </data>
+  <data name="IS_EXIST" xml:space="preserve">
+    <value>{0} is exist</value>
+  </data>
+  <data name="IS_NOT_EXIST" xml:space="preserve">
+    <value>{0} is not exist</value>
+  </data>
+  <data name="IS_NOT_VALID" xml:space="preserve">
+    <value>{0} is not valid</value>
+  </data>
+  <data name="IS_REQUIRED" xml:space="preserve">
+    <value>{0} is required</value>
+  </data>
+  <data name="LASTNAME" xml:space="preserve">
+    <value>Lastname</value>
+  </data>
+  <data name="LENGTH" xml:space="preserve">
+    <value>{0} length can be {1}-{2} range</value>
+  </data>
+  <data name="LESSTHANOREQUALTO" xml:space="preserve">
+    <value>{0} less than {1} or equal to {1}</value>
+  </data>
+  <data name="LESS_THAN" xml:space="preserve">
+    <value>{0} must be less than {1}</value>
+  </data>
+  <data name="LEVEL_IS_NOT_EXIST" xml:space="preserve">
+    <value>Level is not exist</value>
+  </data>
+  <data name="LIVENESS_AUTHENTICATION_IS_FAILED" xml:space="preserve">
+    <value>Liveness authentication is failed</value>
+  </data>
+  <data name="LIVENESS_SERVICE_IS_NOT_RESPONDING" xml:space="preserve">
+    <value>Liveness service is not responding</value>
+  </data>
+  <data name="LOWERCASE" xml:space="preserve">
+    <value>At least one character must be lower case</value>
+  </data>
+  <data name="MALE" xml:space="preserve">
+    <value>Male</value>
+  </data>
+  <data name="MASTER_KEY_ALREADY_EXIST" xml:space="preserve">
+    <value>Master key already exist</value>
+  </data>
+  <data name="MAXIMUMLENGTH" xml:space="preserve">
+    <value>{0} maximum length can be {1}</value>
+  </data>
+  <data name="MIDDLENAME" xml:space="preserve">
+    <value>Middlename</value>
+  </data>
+  <data name="MIMETYPE_IS_NOT_MULTIPART" xml:space="preserve">
+    <value>Mime type is not multipart/form-data</value>
+  </data>
+  <data name="MINIMUMLENGTH" xml:space="preserve">
+    <value>{0} minimum length must be {1}</value>
+  </data>
+  <data name="MSISDN" xml:space="preserve">
+    <value>Msisdn</value>
+  </data>
+  <data name="NAME" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="NOTEMPTY" xml:space="preserve">
+    <value>{0} can not be empty</value>
+  </data>
+  <data name="NO_VERIFCATION_KEY_REQUIRED" xml:space="preserve">
+    <value>No verifcation key required</value>
+  </data>
+  <data name="NUMBER" xml:space="preserve">
+    <value>Number</value>
+  </data>
+  <data name="OLD_PASSWORD" xml:space="preserve">
+    <value>Old password</value>
+  </data>
+  <data name="OPERATION_TYPE_IS_NOT_EXIST" xml:space="preserve">
+    <value>Operation type is not exist</value>
+  </data>
+  <data name="ORGANIZATION_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Organization does not exist</value>
+  </data>
+  <data name="ORGANIZATION_NAME_IS_EXIST" xml:space="preserve">
+    <value>Organization name is exist</value>
+  </data>
+  <data name="PARTNER_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Partner does not exist</value>
+  </data>
+  <data name="PARTNER_NAME_IS_EXIST" xml:space="preserve">
+    <value>Partner name is exist</value>
+  </data>
+  <data name="PASSWORD" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="PERSONS_AGE_IS_NOT_WITHIN_THE_SPECIFIED_RANGE" xml:space="preserve">
+    <value>Age must be between 18 and 65</value>
+  </data>
+  <data name="PERSON_IS_NOT_EXIST" xml:space="preserve">
+    <value>Person is not exist</value>
+  </data>
+  <data name="PHOTO_WAS_NOT_FOUND" xml:space="preserve">
+    <value>Photo was not found</value>
+  </data>
+  <data name="PIN" xml:space="preserve">
+    <value>Pin</value>
+  </data>
+  <data name="PINS_IS_NOT_EQUALS" xml:space="preserve">
+    <value>Pins is not equals</value>
+  </data>
+  <data name="PIN_NOT_EXIST_OR_EXPIRED" xml:space="preserve">
+    <value>Pin not exist or expired</value>
+  </data>
+  <data name="PLACE_ADDRESS" xml:space="preserve">
+    <value>Place address</value>
+  </data>
+  <data name="PLACE_NAME" xml:space="preserve">
+    <value>Place name</value>
+  </data>
+  <data name="REFRESH_TOKEN" xml:space="preserve">
+    <value>Refresh token</value>
+  </data>
+  <data name="REGION_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Region does not exist</value>
+  </data>
+  <data name="REGISTERED_ADDRESS" xml:space="preserve">
+    <value>Registered address</value>
+  </data>
+  <data name="ROLE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Role does not exist</value>
+  </data>
+  <data name="ROLE_GROUP_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Role group does not exist</value>
+  </data>
+  <data name="SAME_FILE_NAME" xml:space="preserve">
+    <value>Filenames cannot be same</value>
+  </data>
+  <data name="SAME_PASSWORD" xml:space="preserve">
+    <value>New password is same with the an old one</value>
+  </data>
+  <data name="SERIES" xml:space="preserve">
+    <value>Series</value>
+  </data>
+  <data name="SURNAME" xml:space="preserve">
+    <value>Surname</value>
+  </data>
+  <data name="TARIF_IS_NOT_EXIST" xml:space="preserve">
+    <value>Tarif is not exist</value>
+  </data>
+  <data name="THE_USER_IS_BLACKLISTED" xml:space="preserve">
+    <value>The user is blacklisted</value>
+  </data>
+  <data name="THIS_PERSON_HAVE_NOT_CERTIFICATE" xml:space="preserve">
+    <value>This person have not certificate</value>
+  </data>
+  <data name="TIN_CODES_IS_NOT_EQUALS" xml:space="preserve">
+    <value>Tin codes (VOEN) is not equals</value>
+  </data>
+  <data name="TSA_INVALID_INPUT" xml:space="preserve">
+    <value>Input that sent to TSA is not valid</value>
+  </data>
+  <data name="UNAUTHORIZED" xml:space="preserve">
+    <value>Unauthorized</value>
+  </data>
+  <data name="UNHANDLED_EXCEPTION" xml:space="preserve">
+    <value>Unhandled exception</value>
+  </data>
+  <data name="UPPERCASE" xml:space="preserve">
+    <value>At least one characher must be upper case</value>
+  </data>
+  <data name="USERNAME" xml:space="preserve">
+    <value>Username</value>
+  </data>
+  <data name="USERNAME_AND_PASSWORD_DOESNT_MATCH" xml:space="preserve">
+    <value>Username and password doesn't match</value>
+  </data>
+  <data name="USERNAME_EXISTS" xml:space="preserve">
+    <value>Username exists</value>
+  </data>
+  <data name="USER_DOES_NOT_EXISTS" xml:space="preserve">
+    <value>User does not exists</value>
+  </data>
+  <data name="USER_FILE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>User file does not exist</value>
+  </data>
+  <data name="USER_FILE_IS_EXIST" xml:space="preserve">
+    <value>User file is exist</value>
+  </data>
+  <data name="USER_FILE_TYPE_DOES_NOT_EXIST" xml:space="preserve">
+    <value>User file type does not exist</value>
+  </data>
+  <data name="USER_IS_BLOCKED" xml:space="preserve">
+    <value>User is blocked</value>
+  </data>
+  <data name="USER_IS_NOT_EXIST" xml:space="preserve">
+    <value>User is not exist</value>
+  </data>
+  <data name="USER_IS_NOT_EXPERT_OR_COMMON" xml:space="preserve">
+    <value>User is not expert or common</value>
+  </data>
+  <data name="USER_STATUS_IS_NOT_EXIST" xml:space="preserve">
+    <value>User status is not exist</value>
+  </data>
+  <data name="VERFIYNG_AUTHENTICATION_IS_FAILED" xml:space="preserve">
+    <value>Verifying authentication is failed</value>
+  </data>
+  <data name="VERFIYNG_SERVICE_IS_NOT_RESPONDING" xml:space="preserve">
+    <value>Verifying service is not responding</value>
+  </data>
+  <data name="VERIFIER_DOES_NOT_EXIST" xml:space="preserve">
+    <value>Verifier does not exist</value>
+  </data>
+  <data name="VERIFIER_NAME_IS_EXIST" xml:space="preserve">
+    <value>Verifier name is exist</value>
+  </data>
+  <data name="VOEN_SUN_IS_NOT_EXIST" xml:space="preserve">
+    <value>Voen is not exist</value>
+  </data>
+</root>
