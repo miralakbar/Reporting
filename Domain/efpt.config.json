@@ -1,0 +1,185 @@
+﻿{
+   "CodeGenerationMode": 4,
+   "ContextClassName": "BioSignVLContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": false,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Entities",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "Domain",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[AuthLogs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiometricAccessOperations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiometricAccessServiceTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiometricProfileHistories]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[BiometricProfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Customers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DefaultHandlers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DefaultVerifiers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DocumentTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Handlers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[IdentificationLogs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KycOperations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KycSdkOperations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[KycServiceTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ManualAccess]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ParentPartners]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PartnerBiometricAccessServiceType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PartnerKycServiceType]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Partners]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[PartnersVendorsSolutions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SDKSessions]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SDKUsers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SimaDataLogs]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SimaDatas]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[SolutionTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Translations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UniversalBiometricOperations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UniversalBiometricOperationToProfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UniversalBiometricProfiles]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UniversalBiometricServiceTypePartner]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[UniversalBiometricServiceTypes]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Users]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Vendors]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Verifiers]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[VLRules]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDatabaseNamesForRoutines": true,
+   "UseDateOnlyTimeOnly": true,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseInternalAccessModifiersForSprocsAndFunctions": false,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false,
+   "UseT4Split": false
+}
